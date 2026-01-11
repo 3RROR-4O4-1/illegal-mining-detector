@@ -20,10 +20,17 @@ conda install -c conda-forge rasterio gdal
 
 # B - requirements.txt
 
+```bash
+pip install requirements.txt
+```
 
 
 
+# C - Quickstart Execution (or cf main() for the args)
+
+```python
 # Full pipeline (training + detection + validation)
+
 python main.py
 
 # Skip training, use existing model
@@ -34,7 +41,7 @@ python main.py --skip-training --overview amazon_overview.jpg --bounds "-60.5,-4
 
 # With validation CSV
 python main.py --skip-training --validate known_mining_sites.csv
-
+```
 
 
 
