@@ -1,0 +1,56 @@
+lat,lon,label,region,notes
+-4.4721,-55.4847,mining,Pará,Itaituba mining district
+-4.2856,-55.9834,mining,Pará,Itaituba region
+-4.5623,-55.7123,mining,Pará,Tapajós river mining
+-4.3891,-55.3456,mining,Pará,Tapajós basin
+-4.6234,-55.8901,mining,Pará,Itaituba municipality
+-3.8456,-56.1234,mining,Pará,Jacareacanga region
+-3.9123,-56.3456,mining,Pará,Jacareacanga mining
+-4.1234,-56.0987,mining,Pará,Tapajós tributary
+-5.1234,-54.5678,mining,Pará,São Félix do Xingu
+-5.3456,-54.7890,mining,Pará,Xingu basin mining
+-5.0123,-54.3210,mining,Pará,São Félix region
+-6.2345,-55.1234,mining,Pará,Novo Progresso
+-6.4567,-55.3456,mining,Pará,Novo Progresso mining
+-6.1234,-55.5678,mining,Pará,BR-163 corridor
+-3.4567,-59.8765,mining,Amazonas,Madeira river mining
+-3.6789,-59.5432,mining,Amazonas,Madeira basin
+-7.5678,-63.0123,mining,Amazonas,Humaitá region
+-7.3456,-63.2345,mining,Amazonas,Madeira tributary
+-2.8345,-60.0234,mining,Roraima,Yanomami territory
+-2.6123,-60.2456,mining,Roraima,Uraricoera river
+-2.9456,-59.8765,mining,Roraima,Mucajaí region
+-3.1234,-60.1234,mining,Roraima,Illegal garimpo area
+-4.0123,-60.5678,mining,Roraima,Catrimani region
+-10.8901,-62.3456,mining,Rondônia,Madeira river
+-10.6789,-62.5678,mining,Rondônia,Porto Velho region
+-10.4567,-62.7890,mining,Rondônia,Cassiterite mining
+-9.8765,-65.3456,mining,Acre,Purus river region
+-8.7654,-63.9012,mining,Rondônia,Roosevelt river
+-1.5000,-52.5000,forest,Amapá,Tumucumaque National Park
+-1.8000,-52.2000,forest,Amapá,Tumucumaque protected
+-1.2000,-52.8000,forest,Amapá,Tumucumaque core zone
+-2.0000,-63.0000,forest,Amazonas,Jaú National Park
+-2.3000,-62.7000,forest,Amazonas,Jaú protected area
+-1.8000,-63.3000,forest,Amazonas,Jaú buffer zone
+-2.5000,-65.0000,forest,Amazonas,Mamirauá Reserve
+-2.8000,-64.7000,forest,Amazonas,Mamirauá várzea
+-2.2000,-65.3000,forest,Amazonas,Mamirauá core
+-5.5000,-53.0000,forest,Pará,Terra do Meio
+-5.8000,-52.7000,forest,Pará,Terra do Meio protected
+-5.2000,-53.3000,forest,Pará,Terra do Meio reserve
+-10.5000,-52.5000,forest,Mato Grosso,Xingu Indigenous Park
+-10.8000,-52.2000,forest,Mato Grosso,Xingu protected
+-10.2000,-52.8000,forest,Mato Grosso,Xingu buffer
+-0.5000,-67.0000,forest,Amazonas,Pico da Neblina
+-0.8000,-66.7000,forest,Amazonas,Pico da Neblina park
+-0.2000,-67.3000,forest,Amazonas,Serra da Neblina
+-7.5000,-73.0000,forest,Acre,Serra do Divisor
+-7.8000,-72.7000,forest,Acre,Serra do Divisor park
+-7.2000,-73.3000,forest,Acre,Serra do Divisor core
+-3.0000,-58.5000,forest,Amazonas,Anavilhanas archipelago
+-3.3000,-58.2000,forest,Amazonas,Anavilhanas reserve
+-2.7000,-58.8000,forest,Amazonas,Negro river islands
+-4.8000,-60.5000,forest,Amazonas,Uatumã Reserve
+-5.1000,-60.2000,forest,Amazonas,Uatumã protected
+-4.5000,-60.8000,forest,Amazonas,Uatumã forest
