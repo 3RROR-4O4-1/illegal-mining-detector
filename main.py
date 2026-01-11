@@ -68,7 +68,7 @@ def step1_collect_mines() -> Dict:
             print("  ⚠ No *_512.jpg files found. Falling back to all *.jpg files.")
             local_images = list(local_path.glob("*.jpg")) + list(local_path.glob("*.png"))
         else:
-            print(f"  ✓ Found {len(local_images)} specific 512px images.")
+            print(f"  Found {len(local_images)} specific 512px images.")
 
         if local_images:
             from PIL import Image
@@ -94,7 +94,7 @@ def step1_collect_mines() -> Dict:
         stats_file = Path(OUTPUT_DIR) / "landsat_stats.json"
         with open(stats_file, "w") as f:
             json.dump(landsat_stats, f, indent=2)
-        print(f"  ✓ Saved statistics to {stats_file}")
+        print(f"  Saved statistics to {stats_file}")
 
     fetched_count = 0
     coordinates = []
@@ -156,7 +156,7 @@ def step1_collect_mines() -> Dict:
         "image_size": local_image_size
     }
     
-    print(f"\n  ✓ Total mine images collected: {result['total_count']}")
+    print(f"\n  Total mine images collected: {result['total_count']}")
     return result
 
 
@@ -188,7 +188,7 @@ def step2_collect_forest(landsat_stats: Dict) -> Dict:
         )
         
         result = {"output_dir": str(output_path), "count": len(samples)}
-        print(f"\n  ✓ Generated {len(samples)} forest images")
+        print(f"\n  Generated {len(samples)} forest images")
         
     except ImportError as e:
         print(f"  Warning: Could not fetch forest images: {e}")
@@ -220,7 +220,7 @@ def step3_build_dataset(mines_dir: str, forest_dir: str, landsat_stats: Dict) ->
     )
     
     metadata["output_dir"] = str(output_path)
-    print(f"\n  ✓ Dataset built at {output_path}")
+    print(f"\n  Dataset built at {output_path}")
     
     return metadata
 
@@ -247,7 +247,7 @@ def step4_train(dataset_dir: str) -> Dict:
     )
     
     history["model_dir"] = str(output_path)
-    print(f"\n  ✓ Model saved to {output_path}")
+    print(f"\n  Model saved to {output_path}")
     
     return history
 

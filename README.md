@@ -1,3 +1,28 @@
+
+# A- System dependencies
+```bash
+sudo apt-get update
+sudo apt-get install -y \
+    libgdal-dev \
+    gdal-bin \
+    libgeos-dev \
+    libproj-dev \
+    python3-dev \
+    build-essential
+
+```
+
+**Note: these commands are for Linux Ubuntu.  In windows the system dependencies are**
+
+```bash
+conda install -c conda-forge rasterio gdal
+```
+
+# B - requirements.txt
+
+
+
+
 # Full pipeline (training + detection + validation)
 python main.py
 
@@ -15,6 +40,7 @@ python main.py --skip-training --validate known_mining_sites.csv
 
 <br>
 
+```bash
 
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                         INTEGRATED PIPELINE                                  │
@@ -47,3 +73,6 @@ python main.py --skip-training --validate known_mining_sites.csv
 │  STEP 7: Batch Inference (simple directory prediction)                      │
 │                                                                              │
 └─────────────────────────────────────────────────────────────────────────────┘
+
+
+```
