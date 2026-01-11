@@ -1,3 +1,9 @@
+### `NOTEBOOK_docs.pdf` <- Notebook PDF
+### `notebook.ipynb` <- Executable Notebook
+### `Presentation.pdf` <- Project Presentation
+
+
+
 
 # A- System dependencies
 ```bash
